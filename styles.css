@@ -20,7 +20,7 @@ body{
 }
 
 .container h1{
-    margin-bottom: 40px;
+    margin:20px 0 40px 0;
     text-decoration: underline;
 }
 
@@ -81,6 +81,24 @@ body{
 .restartBtn:hover{
     background: #7272e1;
 }
+
+.cell.disabled{
+    background: #8c8c8c;
+}
+
+.alertbox{
+    position: absolute;
+    top: 0;
+    background-color: #dfdfdf;
+    color:#4d4b51 ;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    display: none;
+}
+
 @media screen and (max-width:550px){
     .container h1{
         font-size: 24px;
@@ -93,6 +111,7 @@ body{
         font-size: 50px;
     }
 }
+
 
 
 
